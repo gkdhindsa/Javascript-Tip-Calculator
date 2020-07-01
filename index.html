@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form >
+        <label for="amount">What's your billing amount?</label>
+        <input type="number" id="amount" name="amount" >
+
+        <label for="type">How did you like your service?</label>
+        <select name="type" id="type">
+            <option value=30 >Excellent</option>
+            <option value=20 >Good</option>
+            <option value=10 >Satisfactory</option>
+            <option value=5 >Terrible</option>
+        </select>
+        <label for="people">How many peole are sharing the bill?</label>
+        <input id="people" name="people" placeholder="Number of people">
+    </form>
+    <button placeholder="submit" id="submit">Submit</button>
+
+    <p id="tip"></p>
+    <script src="index.js"></script>
+</body>
+</html>
+
