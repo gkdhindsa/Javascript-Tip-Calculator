@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(to right, #86BFBC, #37B9E9);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+}
+.container{
+    justify-content: center;
+}
+.form{
+    display: inline-block;
+
+    background-color: rgb(0, 0, 0, 0.5);
+    align-self: center;
+    padding: 5rem 0;
+}
+.label{
+    padding: 0.5rem;
+}
+input, select{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.2rem;
+    border: 1px solid black;
+}
+#submit{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color: white;
+}

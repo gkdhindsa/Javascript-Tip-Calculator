@@ -9,7 +9,7 @@ function calculate(){
 
     val=(a*0.01*t)/p;
     console.log(val);
-    document.querySelector("#tip").innerText=val;
+    document.querySelector("#tip").innerText="$"+ val.toString()+ " each";
 }
 
 let amount=document.querySelector("#amount");

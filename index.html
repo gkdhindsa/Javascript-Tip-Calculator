@@ -1,30 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <form >
-        <label for="amount">What's your billing amount?</label>
-        <input type="number" id="amount" name="amount" >
+    <div class="container">
+        <div class="form">
+            <div>
+                <div class="label">
+                    <label for="amount">What's your billing amount?</label>
+                </div>
+                <input type="number" id="amount" name="amount">
+            </div>
+            <div>
+                <div class="label">
+                    <label for="type">How did you like your service?</label>
+                </div>
+                <select name="type" id="type">
+                    <option value=30>Excellent</option>
+                    <option value=20>Good</option>
+                    <option value=10>Satisfactory</option>
+                    <option value=5>Terrible</option>
+                </select>
+            </div>
+            <div>
+                <div class="label">
+                    <label for="people">How many peole are sharing the bill?</label>
+                </div>
+                <input id="people" name="people" placeholder="Number of people">
+            </div>
+            <button placeholder="submit" id="submit">Submit</button>
+            <p id="tip"></p>
 
-        <label for="type">How did you like your service?</label>
-        <select name="type" id="type">
-            <option value=30 >Excellent</option>
-            <option value=20 >Good</option>
-            <option value=10 >Satisfactory</option>
-            <option value=5 >Terrible</option>
-        </select>
-        <label for="people">How many peole are sharing the bill?</label>
-        <input id="people" name="people" placeholder="Number of people">
-    </form>
-    <button placeholder="submit" id="submit">Submit</button>
+        </div>
 
-    <p id="tip"></p>
+    </div>
     <script src="index.js"></script>
 </body>
-</html>
 
+</html>
